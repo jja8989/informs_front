@@ -1,0 +1,52 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+*{
+  font-family : Arial, Helvetica, sans-serif
+} */
+
+*{
+  margin:0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* The CSS code `h1, h2, p { font-family: 'Playfair Display', serif; }` is targeting the heading
+elements `<h1>`, `<h2>`, and paragraph elements `<p>` in the HTML document. It sets the font family
+of these elements to 'Playfair Display', which is a specific font imported from Google Fonts,
+falling back to a generic serif font if 'Playfair Display' is not available. This rule ensures that
+the specified font is applied to these specific elements on the webpage. */
+/* 
+h1, h2, p {
+  font-family: 'Playfair Display', serif;
+} */
+
+body{
+  margin : 0;
+  /* height : 100vh; */
+}
+
+
+.header{
+  /* border-bottom : 2px solid rgba(128, 128, 128, 0.5); */
+  /* background-color: rgb(249,249,249); */
+  box-sizing:border-box;
+  text-shadow : 1px 1px 2px grey;
+  box-shadow : 0px 1px 3px grey;
+  z-index: 10;
+}
+
+
+/* footer{
+  border-top : 2px solid rgba(128, 128, 128, 0.5);
+} */
+
+.sidebar-container{
+  /* border-right : 1px solid grey; */
+  background-color: rgb(253, 253, 253)
+}
+/* 
+nav{
+  height : 80vh;
+} */
